@@ -7,7 +7,14 @@ Date: [date]
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+[the condition syntax is used when you want to verify something first before it run he code
+for example, you only want to let someone pass if they are above 18yo, in this case you are gonna use the if elif and else 
+conditions, so in human language, 
+
+if (you are 18 yo) [you can pass the gate]
+else (you are below 18) [you can't pass the gate]
+
+]
 
 
 ============================================
