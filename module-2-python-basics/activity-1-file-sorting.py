@@ -1,7 +1,7 @@
 """
 Module 2 — Activity: File Sorting with os and shutil
-Student: [your name]
-Date: [date]
+Student: [Tulabut Adrian A]
+Date: [9-27-26]
 
 ============================================
 WHAT DID YOU BUILD? (explain in your own words)
@@ -27,11 +27,28 @@ YOUR SCRIPT
 Paste the code you already wrote for this activity below.
 """
 
+
 import os
 import shutil
 
-# --- paste your existing code here ---
+os.makedirs("messy_folder", exist_ok=True)
+open("messy_folder/notes.pdf", "w").close()
+open("messy_folder/essay.pdf", "w").close()
+open("messy_folder/selfie.jpg", "w").close()
 
+messy_folder = "messy_folder"
+pdf_box = "messy_folder/PDFs"
+
+os.makedirs(pdf_box, exist_ok=True)
+
+all_files = os.listdir(messy_folder)
+
+for file in all_files:
+  if file.endswith(".pdf"):
+    where_it_is_now = messy_folder + "/" + file
+    shutil.move(where_it_is_now, pdf_box)
+    print("moved", file)
+    
 
 """
 ============================================
