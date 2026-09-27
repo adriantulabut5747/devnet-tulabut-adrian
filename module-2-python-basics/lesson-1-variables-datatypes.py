@@ -66,8 +66,9 @@ A MISTAKE I MADE (or one I want to avoid)
 [what's something confusing or easy to get wrong
 about this topic?
 
-declaring datatypes and variables are really easy as long as you remember the syntaxes of them, for example when using string
-remember to use double quotes and when using char, us single ones
+declaring datatypes and variables are really easy as long as you remember the syntaxes of them (which is the hard part) because every languange has different syntas
+and you need to memorize them in order to run a program, for example when using string
+remember to use double quotes ("HI") and when using char, use single ones ('A')
 ]
 
 
